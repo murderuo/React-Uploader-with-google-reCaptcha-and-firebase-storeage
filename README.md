@@ -15,3 +15,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+<img src="https://github.com/murderuo/React-Uploader-with-google-reCaptcha-and-firebase-storeage/blob/main/src/components/ss.JPG" alt="" />
