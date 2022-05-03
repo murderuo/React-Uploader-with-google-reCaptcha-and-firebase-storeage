@@ -1,11 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
+//import { getAnalytics } from 'firebase/analytics';
 import {
-  getDownloadURL,
-  getStorage,
-  ref,
-  uploadBytesResumable,
+  getStorage
 } from 'firebase/storage';
 
 import React, { useState } from 'react';
@@ -33,4 +30,4 @@ const app = initializeApp(firebaseConfig);
 export const storage = getStorage(app);
 
 //create storage ref
-const storageRef = ref(storage, '/uploads/');
+//const storageRef = ref(storage, '/uploads/');
