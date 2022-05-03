@@ -68,7 +68,7 @@ function Upload({ token }) {
           <div>
             DOWNLOAD URL: <br />
             <div className="upload-bar">
-              <a href={data.url} target="_blank">
+              <a href={data.url} rel="noreferrer">
                 {data.url}
               </a>
             </div>
