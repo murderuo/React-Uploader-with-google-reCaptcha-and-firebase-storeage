@@ -1,7 +1,7 @@
 import './App.css';
 import Captcha from './components/Captcha';
 import Upload from './components/Upload';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function App() {
   const [token, setToken] = useState(null);
